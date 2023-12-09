@@ -7,17 +7,18 @@ body {
         overflow-wrap: break-word;
         text-align: center;
 
-        input{
+        input {
             height: 30px;
         }
 
-        .button{
+        .button {
             width: 100px;
             height: 30px;
             margin-top: 5px;
             background-color: aqua;
             border-radius: 5px;
             border: none;
+            cursor: pointer;
         }
     }
 

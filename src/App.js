@@ -1,11 +1,13 @@
-import { ContactUs } from "./components/contact";
-import "./components/contact.scss"
+import React from "react";
+import { ContactUs } from "./components/Contact";
 
 function App() {
   return (
-    <div className="App">
-      <ContactUs />
-    </div>
+    <React.Fragment>
+      <div>
+        <ContactUs />
+      </div>
+    </React.Fragment>
   );
 }
 
